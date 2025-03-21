@@ -14,6 +14,7 @@ BuildRequires:	cmake(Fcitx5Module)
 BuildRequires:	cmake(Fcitx5ModuleTestFrontend)
 BuildRequires:	cmake(Fcitx5ModuleTestIM)
 BuildRequires:	pkgconfig(lua)
+BuildRequires:	gettext
 BuildSystem:	cmake
 
 %description
