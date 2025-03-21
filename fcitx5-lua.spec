@@ -7,6 +7,13 @@ URL:		https://github.com/fcitx/fcitx5-lua
 License:	LGPL-2.1+
 Group:		Graphical desktop/KDE
 BuildRequires:	cmake
+BuildRequires:	cmake(ECM)
+BuildRequires:	cmake(Fcitx5Core)
+BuildRequires:	cmake(Fcitx5ModuleQuickPhrase)
+BuildRequires:	cmake(Fcitx5Module)
+BuildRequires:	cmake(Fcitx5ModuleTestFrontend)
+BuildRequires:	cmake(Fcitx5ModuleTestIM)
+BuildRequires:	pkgconfig(lua)
 BuildSystem:	cmake
 
 %description
